@@ -1,5 +1,3 @@
-# Small change for inititial commit
-
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
@@ -36,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Using semantic HTML such as <header>, <footer>, <main>, etc is a way of marking up your HTML is a more meaningful way. While a <div> element will yield the same effect, using semantic HTML goes a bit deeper and is clear right away what each element is doing. Using semantic HTML is also very helpful for those that requiure assistance in viewing webpages.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Two big differences between block and inline is that a block element will take up the entire width of the container in which it is in and always starts on a new line. Inline elements take up just enough room that they need and start side-by-side with the previous content.
 
 3. What are the 4 areas of the box model?
 
+Content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows developers to work on the same project idependently and asynchronously before coming together to decide on what becomes the code that will make it to production.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
