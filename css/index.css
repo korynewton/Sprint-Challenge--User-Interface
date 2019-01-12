@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+/* Completed MVP */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -69,6 +71,93 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+  /* Animation Stretch Goal */
+
+  @keyframes colorShift {
+    from {background-color: white;}
+    to {background-color: red;}
+}
+
+/* Navigation */
+
+.navigation-bar {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:20px 0;
+  }
+  
+  .navigation-bar div {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navigation-bar div a {
+    color:black;
+    text-decoration:none;
+    background-color: white;
+  }
+  
+  .navigation-bar div a:hover{
+    animation-name: colorShift;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+  
+
+
+  /* Top Image */
+
+  .jumbo {
+      width: 100%;
+      margin: 20px auto;
+  }
+
+#box1 {
+    background-color: teal; 
+}
+
+#box2 {
+background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue; 
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson; 
+}
+
+#box6 {
+    background-color: forestgreen; 
+}
+
+#box7 {
+    background-color: darkorchid; 
+}
+
+#box8 {
+    background-color: hotpink; 
+}
+
+#box9 {
+    background-color: indigo; 
+}
+
+#box10 {
+    background-color: dodgerblue; 
 }
 
 .top-content {
@@ -143,4 +232,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.top-about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* About Page - Main Content */
+
+#main-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about-box {
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom:1px dashed black;
+    width:45%;
+    margin: 20px autoo;
+}
+
+.about-box img, h3, p, button {
+     padding: 10px 0px;
+} 
+
+.about-box button {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 125px;
+    margin: 20px 0;
+}
+
+.working-together {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px 20px 20px;
+}
+
+
+
+.bottom-row {
+    margin-top: 40px;
+}
+
+.skyline {
+    width: 100%;
+}
+
+.about-box-inside img {
+    width: 100%;
 }
